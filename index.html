@@ -1,44 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Drone</title>
+    <title>AGROVANT - Pulverização Agrícola com Drones</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
+    <header class="navbar">
+        <div class="container">
             <a href="#" class="logo">AGROVANT</a>
-            <div class="nav-items">
+            <nav class="nav-items">
                 <ul class="nav-links">
-                    <li><a href="#">Funções</a></li>
-                    <li><a href="#">Especificações</a></li>
-                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#funcoes">Funções</a></li>
+                    <li><a href="#especificacoes">Especificações</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
                 </ul>
-                <a href="#" class="nav-button">Agende</a>
-            </div>
-        </nav>
-    </header>
-    <section class="hero">
-        <video autoplay muted loop playsinline>
-            <source src="img/video1.webm" type="video/webm">
-        </video>
-        <div class="conteudo">
-            <h1>oi</h1>
+                <a href="#contato" class="nav-button">Agende</a>
+            </nav>
         </div>
-    </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop playsinline poster="img/Imagem 1.png">
+                <source src="img/video1.webm" type="video/webm">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="hero-content">
+                <h1 class="logo-hero">AGROVANT</h1>
+                <h2>A nova era da pulverização agrícola.<br>Silvicultura e alta performance.</h2>
+                <p>Monitore e otimize sua lavoura com precisão, economia e segurança ambiental.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agende agora</a>
+                </div>
+            </div>
+        </section>
 
 
+        <section id="funcoes" class="funcoes-fundo">
+            <div class="container-funcoes">
+                <h1>Monitore e aplique defensivos agrícolas com
+                    precisão, economia e segurança ambiental.</h1>
+                <h2>🚁 Rápido 📡 Inteligente 🌱 Sustentável</h2>
+                <p>👉 Agende agora uma demonstração gratuita na sua fazenda!</p>
+                <div class="funcoes-buttons">
+                    <a href="" class="btn btn-white">Assistir vídeo ▶</a>
+                    <a href="" class="btn btn-secondary">Reportagem</a>
+                </div>
+            </div>
+        </section>
 
+        <section id="video-drone" class="video-drone">
+            <video autoplay muted loop playsinline poster="img/Imagem 2.png">
+                <source src="img/video2.webm" type="video/webm">
+            </video>
+        </section>
 
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+        <section id="especificacoes" class="especificacoes">
+                    <div class="especificacoes-item">
+                        <h3>Monitoramento aéreo em tempo real</h3>
+                        <p>Acompanhe sua plantação com imagens de alta resolução.</p>
+                    </div>
+                    <div class="especificacoes-item">
+                        <h3>Aplicação localizada de defensivos</h3>
+                        <p>Aplique produtos apenas onde é necessário, economizando recursos.</p>
+                    </div>
+                    <div class="especificacoes-item">
+                        <h3>Mapeamento de saúde com Drones</h3>
+                        <p>Identifique pragas e doenças antes que se espalhem.</p>
+                    </div>
+                    <div class="especificacoes-item">
+                        <h3>Redução de custos com insumos</h3>
+                        <p>Economize em defensivos e fertilizantes com a aplicação precisa.</p>
+                    </div>
+                    <div class="especificacoes-item">
+                        <h3>Cobertura de grandes áreas</h3>
+                        <p>Otimize o tempo com drones que cobrem vastas extensões rapidamente.</p>
+                    </div>
+                    <div class="especificacoes-item">
+                        <h3>Relatórios automatizados</h3>
+                        <p>Receba análises detalhadas para tomar as melhores decisões.</p>
+                    </div>
+        </section>
+
+        <section id="depoimentos" class="testimonials">
+            <div class="testimonial-background"></div>
+            <div class="container">
+                <h2>Quem já testou, recomenda</h2>
+                <div class="testimonial-content">
+                    <div class="testimonial-author-image">
+                        <img src="img/Imagem 4.jpg" alt="Carlos Nonato">
+                    </div>
+                    <div class="testimonial-text">
+                        <p class="quote">“Nunca imaginei que a tecnologia de drones pudesse trazer tantos benefícios
+                            para a minha lavoura. A AGROVANT superou todas as minhas expectativas, com um serviço de
+                            qualidade e resultados impressionantes. 100% satisfeito!”</p>
+                        <p class="author"><strong>Carlos Nonato</strong>, Engenheiro Florestal, CEO</p>
+                        <div class="testimonial-stats">
+                            <span class="rating">★★★★★</span>
+                            <span>Mais de 250 fazendas atendidas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Pronto para ver de perto?</h2>
+                <p>Nossa equipe técnica vai até você!</p>
+                <p>Deixe seu contato para agendar uma demonstração sem compromisso e veja como a AGROVANT pode
+                    transformar a sua produção.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Agendar uma apresentação</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AGROVANT. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
